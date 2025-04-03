@@ -1,0 +1,7 @@
+language: python
+python:
+  - "3.9"  # Use your Python version (e.g., 3.8, 3.10)
+
+# Command to run tests
+script:
+  - python -m unittest TestTriangle
